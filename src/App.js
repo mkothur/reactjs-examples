@@ -3,6 +3,7 @@ import "./styles.css";
 import Counter from "./components/Counter";
 import CounterTwo from "./components/CounterTwo";
 import PopulateName from "./components/PopulateName";
+import DataFetching from "./components/DataFetching";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Counter />
       <CounterTwo />
       <PopulateName />
+      <DataFetching />
     </div>
   );
 }
