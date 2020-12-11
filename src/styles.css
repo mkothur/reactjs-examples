@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.counter {
+  border: 1px solid blanchedalmond;
+  padding: 10px;
+  margin-bottom: 20px;
+}
