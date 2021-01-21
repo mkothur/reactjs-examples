@@ -14,7 +14,7 @@ export default function DataFetching() {
       .catch((err) => {
         console.log(err);
       });
-  });
+  }, [0]);
   return (
     <div className="counter">
       <ul>
