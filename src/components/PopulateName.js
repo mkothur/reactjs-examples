@@ -14,7 +14,7 @@ export default function PopulateName() {
   return (
     <div className="counter">
       <h1>3. API call using hooks</h1>
-      {loading ? <div>Loading...</div> : <div>{data.name.last}</div>}
+      {loading ? <div>Loading...</div> : <div>{data.name.first}</div>}
     </div>
   );
 }
